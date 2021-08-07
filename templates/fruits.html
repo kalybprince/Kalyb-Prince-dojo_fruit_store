@@ -2,6 +2,7 @@
 <head>
     <title>Dojo Fruit Store Assignment</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 
@@ -24,7 +25,46 @@
         <section class="jumbotron text-center">
           <div class="container">
             <h1 class="jumbotron-heading">Dojo Fruits</h1>
-            <p>Please figure out how to display the images here...</p>
+            
+            <div class="container">
+              <div class="row">
+                <div class="card col" style="width: 20rem;">
+                  <img src="/static/img/apple.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apple</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+    
+                <div class="card col" style="width: 20rem;">
+                  <img src="/static/img/blackberry.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Blackberry</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+    
+                <div class="card col" style="width: 20rem;">
+                  <img src="/static/img/raspberry.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Raspberry</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+    
+                <div class="card col" style="width: 20rem;">
+                  <img src="/static/img/strawberry.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Strawberry</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <p>
               <a href="/" class="btn btn-primary my-2">Go back</a>

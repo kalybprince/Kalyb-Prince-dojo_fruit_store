@@ -2,6 +2,7 @@
 <head>
     <title>Dojo Fruit Store Assignment</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 
@@ -47,7 +48,7 @@
                     <tr>
                         <td>Strawberry</td>
                         <td>
-                            <select name='strawberry'>
+                            <select id='strawberry' name='strawberry'>
                                 <option value='0'>0</option>
                                 <option value='1'>1</option>
                                 <option value='2'>2</option>
@@ -59,7 +60,7 @@
                     <tr>
                         <td>Raspberry</td>
                         <td>
-                            <select name='raspberry'>
+                            <select id='raspberry' name='raspberry'>
                                 <option value='0'>0</option>
                                 <option value='1'>1</option>
                                 <option value='2'>2</option>
@@ -71,7 +72,7 @@
                     <tr>
                         <td>Apple</td>
                         <td>
-                            <select name='apple'>
+                            <select id='apple' name='apple'>
                                 <option value='0'>0</option>
                                 <option value='1'>1</option>
                                 <option value='2'>2</option>
@@ -80,6 +81,18 @@
                             </select>
                         </td>
                     </tr>
+                    <tr>
+                      <td>Blackberry</td>
+                      <td>
+                          <select id='blackberry' name='blackberry'>
+                              <option value='0'>0</option>
+                              <option value='1'>1</option>
+                              <option value='2'>2</option>
+                              <option value='3'>3</option>
+                              <option value='4'>4</option>
+                          </select>
+                      </td>
+                  </tr>
                     </tbody>
                 </table>
   
